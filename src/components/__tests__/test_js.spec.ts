@@ -30,7 +30,7 @@ describe('Async function', () => {
 });
 
 //各种钩子逻辑
-import { describe, it, expect, beforeEach, afterEach, beforeAll, afterAll } from 'vitest';
+import { beforeEach, afterEach, beforeAll, afterAll } from 'vitest';
 
 let globalCounter = 0;
 
